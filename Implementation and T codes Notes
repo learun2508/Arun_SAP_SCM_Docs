@@ -1,0 +1,40 @@
+S.No	 MASTER DATA	       	T-CODES		
+			     CREATE	CHANGE	DISPLAY
+1	Material Master		MM01	MM02	MM03
+2	Vendor Master		XK01	XK02	XK03
+3	Customer Master		XD01	XD02	XD03
+4	Price Info Record (PIR)	ME11	ME12	ME13
+5	Source List		ME01	ME02	ME03
+6	Service Master		AC01	AC02	AC03
+7	Batch Master		MSC1N	MSC2N	MSC3N
+8	Condition Records	MEK1	MEK2	MEK3
+
+				
+ESD	CONFIGURATION			
+	ESD	Development		
+	ESQ	Quality		
+	ESP	Production		
+				
+				
+ESQ	TESTING			
+	Unit Testing	Internal		
+	Integration Testing	Testing with Other Module		
+	CRP Testing	Demo		
+	UAT Testing	Business User/End User Testing		
+				
+S.No	"P2P 
+(Procure to Pay)"	T-CODES		
+	                                        	CREATE	CHANGE	DISPLAY
+1	PR (Purchase Requistion)- Internal Document	ME51N	ME52N	ME53N
+	RFQ (Request for Quotation) ME41			
+2	PO (Purchase Order)- Confirmation Document	ME21N	ME22N	ME23N
+	PO form, need to send it to right vendor			
+3	Quality Check (101- Accept    102-Return)	MIGO	MIGO	MIGO
+	Good Receipt			
+4	Invoice Verification      	                MIRO	MIRO	MIRO
+5	Then Payment would be made. Procured to Pay			
+				
+				
+"CUTOVER 
+ACTIVITY"	Encompass the critical tasks required to transition from a legacy system to the new SAP environment, including data migration, system testing, and user training, culminating in the system going live. 			
+KT (Knowledge Trasnsfer to End User / Business User)	The process of sharing expertise, processes, and customizations with end-users or business users to ensure they can effectively utilize the SAP system			
